@@ -10,6 +10,8 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 # Twitter Bootstrap Web Framework
 gem 'bootstrap-sass'
+# User authentication solution for Rails
+gem 'devise'
 
 
 

@@ -1,6 +1,9 @@
 Flixter::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
 
+  # Action mailer for devise on production server, will mail a password reset
+  config.action_mailer.default_url_options = { :host => 'flixter-colin-rubbert.herokuapp.com'}
+
   # Code is not reloaded between requests.
   config.cache_classes = true
 

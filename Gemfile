@@ -12,6 +12,8 @@ gem 'jbuilder', '~> 1.2'
 gem 'bootstrap-sass'
 # User authentication solution for Rails
 gem 'devise'
+# Easy Form Generation
+gem 'simple_form'
 
 
 
